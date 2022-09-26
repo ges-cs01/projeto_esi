@@ -71,11 +71,11 @@ jobs:
       - name: Set up database schema
         run: bin/rails db:schema:load
 
-      - name: Bunde install
+      - name: Bundle install
         run: bundle install
 
       - name: Run tests
-        run: rake spec
+        run: bundle exec rspec spec
 
   lint:
     runs-on: ubuntu-latest
