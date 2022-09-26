@@ -42,7 +42,6 @@ jobs:
 
   rspec:
     name: RSpec
-    needs: test
     runs-on: ubuntu-latest
     services:
       postgres:
@@ -68,11 +67,15 @@ jobs:
       - name: Install postgres client dependencies
         run: sudo apt-get install libpq-dev
 
-      - name: Create database
-        run: bundle exec rails db:migrate
+      # Add or replace database setup steps here
+      - name: Set up database schema
+        run: bin/rails db:schema:load
+
+      - name: Bunde install
+        run: bundle install
 
       - name: Run tests
-        run: bundle exec rspec spec
+        run: rake spec
 
   lint:
     runs-on: ubuntu-latest
