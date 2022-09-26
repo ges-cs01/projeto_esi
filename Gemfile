@@ -57,6 +57,8 @@ group :development, :test do
   gem 'brakeman'
   gem 'bundler-audit'
   gem 'ruby_audit'
+  # coveralls
+  gem 'coveralls', require: false
   # Database
   # gem 'pg'
   # Linting
