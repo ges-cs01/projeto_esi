@@ -93,6 +93,10 @@ Layout/TrailingWhitespace:
 # AllowedMethods: refine
 Metrics/BlockLength:
   Max: 26
+  Exclude:
+    - 'Rakefile'
+    - '**/*.rake'
+    - 'spec/**/*.rb'
 
 # Offense count: 1
 # Configuration parameters: AllowedMethods, AllowedPatterns, IgnoredMethods.
