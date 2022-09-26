@@ -10,5 +10,6 @@
 
 ## Integrantes
       Guilherme Elui de Souza, 11796152
+      Daniel Ferreira da Silva Junior, 11352150
 
 ## Descrição do projeto
