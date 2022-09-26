@@ -38,7 +38,40 @@ jobs:
         run: bin/rails db:schema:load
       # Add or replace test runners here
       - name: Run tests
-        run: bin/rake
+
+  rspec:
+    name: RSpec
+    needs: test
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:11-alpine
+        ports:
+          - "5432:5432"
+        env:
+          POSTGRES_DB: rails_test
+          POSTGRES_USER: rails
+          POSTGRES_PASSWORD: password
+    env:
+      RAILS_ENV: test
+      DATABASE_URL: "postgres://rails:password@localhost:5432/rails_test"
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v1
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      - name: Install postgres client dependencies
+        run: sudo apt-get install libpq-dev
+
+      - name: Create database
+        run: bundle exec rails db:migrate
+
+      - name: Run tests
+        run: bundle exec rspec spec
 
   lint:
     runs-on: ubuntu-latest
