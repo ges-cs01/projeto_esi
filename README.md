@@ -12,5 +12,5 @@
       Guilherme Elui de Souza, 11796152
       Daniel Ferreira da Silva Junior, 11352150
       João Leonardo Ribeiro Abrahão, 11381448
-
+      Sérgio Guilherme Rodrigues da Rocha, 11270906
 ## Descrição do projeto
