@@ -233,3 +233,7 @@ Style/WordArray:
 # URISchemes: http, https
 Layout/LineLength:
   Max: 198
+
+Naming/AsciiIdentifiers:
+  Exclude:
+    - 'features/**/*'
