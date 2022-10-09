@@ -1,4 +1,4 @@
-Dado('que estou na página de cadastro de usuario') do
+Dado('que estou na página de cadastro de usuário') do
   visit '/usuarios/new'
 end
 
