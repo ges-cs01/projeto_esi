@@ -57,8 +57,9 @@ group :development, :test do
   gem 'brakeman'
   gem 'bundler-audit'
   gem 'ruby_audit'
-  # coveralls
-  gem 'coveralls', require: false
+  # simplecov
+  gem 'simplecov',      require: false
+  gem 'simplecov-lcov', require: false
   # Database
   # gem 'pg'
   # Linting

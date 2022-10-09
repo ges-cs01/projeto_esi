@@ -1,386 +1,222 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/daniel/projetos/projeto_esi/spec/models/usuario_spec.rb": [
-        1,
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/home/daniel/projetos/projeto_esi/spec/rails_helper.rb": [
-        null,
-        1,
-        1,
-        1,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        0,
-        0,
-        null,
-        1,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null
-      ],
-      "/home/daniel/projetos/projeto_esi/config/environment.rb": [
-        null,
-        1,
-        null,
-        null,
-        1
-      ],
-      "/home/daniel/projetos/projeto_esi/config/application.rb": [
-        1,
-        null,
-        1,
-        null,
-        null,
-        null,
-        1,
-        null,
-        1,
-        1,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/home/daniel/projetos/projeto_esi/config/boot.rb": [
-        1,
-        null,
-        1,
-        1
-      ],
-      "/home/daniel/projetos/projeto_esi/config/environments/test.rb": [
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/home/daniel/projetos/projeto_esi/config/initializers/assets.rb": [
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/home/daniel/projetos/projeto_esi/config/initializers/content_security_policy.rb": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/home/daniel/projetos/projeto_esi/config/initializers/filter_parameter_logging.rb": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null
-      ],
-      "/home/daniel/projetos/projeto_esi/config/initializers/inflections.rb": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/home/daniel/projetos/projeto_esi/config/initializers/permissions_policy.rb": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/home/daniel/projetos/projeto_esi/config/routes.rb": [
-        1,
-        1,
-        1,
-        null
-      ],
-      "/home/daniel/projetos/projeto_esi/app/helpers/application_helper.rb": [
-        1,
-        null
-      ],
-      "/home/daniel/projetos/projeto_esi/app/helpers/home_helper.rb": [
-        null,
-        1,
-        null
-      ],
-      "/home/daniel/projetos/projeto_esi/app/helpers/posts_helper.rb": [
-        null,
-        1,
-        null
-      ],
-      "/home/daniel/projetos/projeto_esi/app/helpers/usuarios_helper.rb": [
-        null,
-        1,
-        null
-      ],
-      "/home/daniel/projetos/projeto_esi/app/models/usuario.rb": [
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null
-      ],
-      "/home/daniel/projetos/projeto_esi/app/models/application_record.rb": [
-        1,
-        1,
-        null
-      ],
-      "/home/daniel/projetos/projeto_esi/spec/requests/home_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null
-      ],
-      "/home/daniel/projetos/projeto_esi/spec/requests/usuarios_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null
-      ],
-      "/home/daniel/projetos/projeto_esi/app/controllers/home_controller.rb": [
-        null,
-        1,
-        1,
-        null
-      ],
-      "/home/daniel/projetos/projeto_esi/app/controllers/application_controller.rb": [
-        1,
-        null
-      ],
-      "/home/daniel/projetos/projeto_esi/app/controllers/usuarios_controller.rb": [
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        0,
-        0,
-        0,
-        null,
-        0,
-        0,
-        null,
-        null,
-        null,
-        1,
-        null,
-        1,
-        0,
-        null,
-        null
-      ]
+      "/home/daniel/projetos/projeto_esi/app/helpers/application_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/home/daniel/projetos/projeto_esi/app/helpers/home_helper.rb": {
+        "lines": [
+          null,
+          1,
+          null
+        ]
+      },
+      "/home/daniel/projetos/projeto_esi/app/helpers/posts_helper.rb": {
+        "lines": [
+          null,
+          1,
+          null
+        ]
+      },
+      "/home/daniel/projetos/projeto_esi/app/helpers/usuarios_helper.rb": {
+        "lines": [
+          null,
+          1,
+          null
+        ]
+      },
+      "/home/daniel/projetos/projeto_esi/app/models/usuario.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/daniel/projetos/projeto_esi/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/daniel/projetos/projeto_esi/app/controllers/home_controller.rb": {
+        "lines": [
+          null,
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/daniel/projetos/projeto_esi/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/home/daniel/projetos/projeto_esi/app/controllers/usuarios_controller.rb": {
+        "lines": [
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          0,
+          null,
+          null
+        ]
+      },
+      "/home/daniel/projetos/projeto_esi/app/channels/application_cable/channel.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/daniel/projetos/projeto_esi/app/channels/application_cable/connection.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/daniel/projetos/projeto_esi/app/controllers/posts_controller.rb": {
+        "lines": [
+          null,
+          0,
+          0,
+          null,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null,
+          0,
+          null,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null,
+          0,
+          null,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/daniel/projetos/projeto_esi/app/jobs/application_job.rb": {
+        "lines": [
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/daniel/projetos/projeto_esi/app/mailers/application_mailer.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/daniel/projetos/projeto_esi/app/models/post.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      }
     },
-    "timestamp": 1665335342
+    "timestamp": 1665336140
   }
 }
