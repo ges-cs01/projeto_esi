@@ -1,21 +1,32 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/daniel/projetos/projeto_esi/spec/helpers/usuarios_helper_spec.rb": [
+      "/home/daniel/projetos/projeto_esi/spec/models/usuario_spec.rb": [
+        1,
         1,
         null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
+        1,
+        1,
+        1,
+        1,
+        1,
         null,
         null,
         1,
         1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
         null
       ],
       "/home/daniel/projetos/projeto_esi/spec/rails_helper.rb": [
@@ -290,35 +301,8 @@
         null
       ],
       "/home/daniel/projetos/projeto_esi/app/helpers/usuarios_helper.rb": [
-        1,
-        null
-      ],
-      "/home/daniel/projetos/projeto_esi/spec/models/usuario_spec.rb": [
-        1,
-        1,
         null,
         1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
         null
       ],
       "/home/daniel/projetos/projeto_esi/app/models/usuario.rb": [
@@ -356,6 +340,9 @@
         1,
         1,
         1,
+        1,
+        1,
+        null,
         null,
         null
       ],
@@ -368,8 +355,32 @@
       "/home/daniel/projetos/projeto_esi/app/controllers/application_controller.rb": [
         1,
         null
+      ],
+      "/home/daniel/projetos/projeto_esi/app/controllers/usuarios_controller.rb": [
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null
       ]
     },
-    "timestamp": 1665334170
+    "timestamp": 1665335342
   }
 }

@@ -10,14 +10,14 @@ RSpec.describe Usuario, type: :model do
 
   it 'invalido com email com formato invalido' do
     usuario = Usuario.new
-    usuario.nome= "joao" 
-    usuario.email = "a,@gmail.com"    
+    usuario.nome = "joao"
+    usuario.email = "a,@gmail.com"
     expect(usuario).not_to be_valid
   end
 
   it 'invalido com senhas divergentes' do
     usuario = Usuario.new
-    usuario.nome= "joao" 
+    usuario.nome = "joao"
     usuario.email = "daniel@gmail.com"
     usuario.senha = "password123"
     usuario.senha_confirmation = "password321"

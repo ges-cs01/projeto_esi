@@ -1,10 +1,11 @@
+# Usuario controller
 class UsuariosController < ApplicationController
   def new
     @usuario = Usuario.new
   end
 
   def create
-    @usuario = Usuario.new(usuario_params) 
+    @usuario = Usuario.new(usuario_params)
     if @usuario.save
       redirect_to '/'
     else
@@ -14,8 +15,8 @@ class UsuariosController < ApplicationController
   end
 
   private
+
   def usuario_params
     params.require(:usuario).permit(:nome, :email, :senha, :senha_confirmation)
   end
-
 end
