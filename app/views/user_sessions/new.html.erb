@@ -1,0 +1,23 @@
+<h1>Login</h1>
+
+<% if @session.errors.has_key? :base %>
+  <div id="error_explanation">
+    <%= @session.errors[:base].join(', ') %>
+  </div>
+<% end %>
+
+<%= form_for @session do |f| %>
+  <div style="margin-bottom: 15px">
+    <%= f.label 'E-mail' %>
+    <%= f.text_field :email %>
+  </div>
+
+  <div style="margin-bottom: 15px;">
+    <%= f.label 'Senha' %>
+    <%= f.password_field :password %>
+  </div>
+
+  <div>
+    <%= f.submit 'Entrar' %>
+  </div>
+<% end %>

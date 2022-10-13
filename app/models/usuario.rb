@@ -7,4 +7,16 @@ class Usuario < ApplicationRecord
                     }
   validates :senha, confirmation: {message: "Senhas divergentes!"}, presence: {message: "É obrigatório informar a senha!"}
   validates :senha_confirmation, presence: {message: "É obrigatório confirmar a senha!"}
+
+  def self.authenticate(email, password)
+    user = find_by_email(email)
+
+    if user.present?
+      if user.senha == password
+        return user
+      end
+    end
+
+    return false
+  end
 end

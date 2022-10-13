@@ -7,7 +7,7 @@ class UsuariosController < ApplicationController
   def create
     @usuario = Usuario.new(usuario_params)
     if @usuario.save
-      redirect_to '/'
+      redirect_to '/user_sessions/new'
     else
       render :new, status: :unprocessable_entity, content_type: "text/html"
       headers["Content-Type"] = "text/html"
@@ -18,5 +18,9 @@ class UsuariosController < ApplicationController
 
   def usuario_params
     params.require(:usuario).permit(:nome, :email, :senha, :senha_confirmation)
+  end
+
+  def login
+    @session = UserSession.new
   end
 end
