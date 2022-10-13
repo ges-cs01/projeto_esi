@@ -11,7 +11,7 @@ RSpec.describe UsuariosController, type: :controller do
           senha_confirmation: "pass123"
         }
       }
-      assert_redirected_to "/"
+      assert_redirected_to "/user_sessions/new"
     end
 
     it "return unprocessable_entity if user is invalid" do
