@@ -1,5 +1,5 @@
+# Usuário Sessão
 class UserSession
-
   include ActiveModel::Validations
   include ActiveModel::Conversion
 
@@ -10,7 +10,7 @@ class UserSession
 
   validates_presence_of :email, :senha
 
-  def initialize(session, attributes={})
+  def initialize(session, attributes = {})
     @session = session
     @email = attributes[:email]
     @password = attributes[:password]
@@ -20,6 +20,7 @@ class UserSession
     user = Usuario.authenticate(@email, @password)
     if user.present?
       store(user)
+      true
     else
       errors.add(:base, :invalid_login)
       false

@@ -1,3 +1,4 @@
+# Usuário
 class Usuario < ApplicationRecord
   validates :nome, presence: {message: "É obrigatório informar o nome!"}
   validates :email, presence: {message: "É obrigatório informar o email!"},
@@ -10,13 +11,8 @@ class Usuario < ApplicationRecord
 
   def self.authenticate(email, password)
     user = find_by_email(email)
+    return false if user.nil?
 
-    if user.present?
-      if user.senha == password
-        return user
-      end
-    end
-
-    return false
+    user if user.senha == password
   end
 end

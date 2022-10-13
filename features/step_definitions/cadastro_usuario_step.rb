@@ -18,7 +18,7 @@ Então('ele deve ter sido salvo no banco de dados') do
 end
 
 Então('deverei ser redirecionado para tela de login') do
-  expect(page).to have_current_path('/')
+  expect(page).to have_current_path('/user_sessions/new')
 end
 
 Quando('deixo o campo {string} vazio') do |string|
