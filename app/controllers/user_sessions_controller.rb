@@ -1,3 +1,4 @@
+# Controlador de Sessão do Usuário
 class UserSessionsController < ApplicationController
   def new
     @session = UserSession.new(session)
