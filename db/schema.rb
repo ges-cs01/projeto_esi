@@ -10,12 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 20_221_009_150_833) do
+ActiveRecord::Schema[7.0].define(version: 2022_10_25_001317) do
   create_table "posts", force: :cascade do |t|
     t.string "title"
     t.text "body"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "transacaos", force: :cascade do |t|
+    t.decimal "valor"
+    t.string "descricao"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string "userId"
   end
 
   create_table "usuarios", force: :cascade do |t|
@@ -25,4 +33,5 @@ ActiveRecord::Schema[7.0].define(version: 20_221_009_150_833) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
+
 end
