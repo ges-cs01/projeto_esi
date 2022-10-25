@@ -14,13 +14,12 @@ class TransacoesController < ApplicationController
     end
   end
 
-  def show
-  end
+  def show; end
 
   private
 
   def transacao_params
-    defaults = { userId: session[:user_id] }
+    defaults = {userId: session[:user_id]}
     params.require(:transacao).permit(:valor, :descricao).reverse_merge(defaults)
   end
 end
