@@ -14,7 +14,11 @@ class TransacoesController < ApplicationController
     end
   end
 
-  def show; end
+  def show
+    redirect_to '/user_sessions/new' unless session[:user_id]
+
+    @transacoes = Transacao.where(userId: session[:user_id])
+  end
 
   private
 

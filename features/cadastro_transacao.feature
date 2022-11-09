@@ -7,7 +7,8 @@ Eu quero acessar a tela de cadastro de transação
 E realizar cadastro dela
 
 Cenário: Cadastro de transação com sucesso
-Dado que estou na página de cadastro de transação
+Dado que eu esteja logado
+E que estou na página de cadastro de transação
 Quando preencho o campo "Descrição" com "Salário"
 E preencho o campo "Valor" com "100"
 E clico em salvar

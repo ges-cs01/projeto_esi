@@ -58,3 +58,11 @@ end
 # See https://github.com/cucumber/cucumber-rails/blob/master/features/choose_javascript_database_strategy.feature
 Cucumber::Rails::Database.javascript_strategy = :truncation
 
+# ApplicationController
+class ApplicationController < ActionController::Base
+  prepend_before_action :stub_current_user
+  def stub_current_user
+    # session[:user_id] = cookies[:stub_user_id] if cookies[:stub_user_id]
+    session[:user_id] = 1
+  end
+end

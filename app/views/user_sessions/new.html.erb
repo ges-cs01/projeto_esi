@@ -9,12 +9,12 @@
 <%= form_for @session do |f| %>
   <div style="margin-bottom: 15px">
     <%= f.label 'E-mail' %>
-    <%= f.text_field :email %>
+    <%= f.text_field :email, id:"email" %>
   </div>
 
   <div style="margin-bottom: 15px;">
     <%= f.label 'Senha' %>
-    <%= f.password_field :password %>
+    <%= f.password_field :password, id:"password" %>
   </div>
 
   <div>
