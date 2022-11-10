@@ -8,7 +8,7 @@ RSpec.describe CategoriesController, type: :controller do
           name: "Aluguel"
         }
       }
-      assert_redirected_to "/categories/new"
+      assert_redirected_to "/categories"
     end
 
     it "return unprocessable_entity if category is invalid" do
