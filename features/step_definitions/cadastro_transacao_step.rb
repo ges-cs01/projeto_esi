@@ -9,5 +9,5 @@ Então('ele deve ter sido salvo nas transações') do
 end
 
 Então('deverei ser redirecionado para tela de transações') do
-  expect(page).to have_current_path('/transacoes/list')
+  expect(page).to have_current_path('/transacoes')
 end
