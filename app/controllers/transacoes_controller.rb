@@ -7,14 +7,14 @@ class TransacoesController < ApplicationController
   def create
     @transacao = Transacao.new(transacao_params)
     if @transacao.save
-      redirect_to '/transacoes/list'
+      redirect_to '/transacoes'
     else
       render :new, status: :unprocessable_entity, content_type: "text/html"
       headers["Content-Type"] = "text/html"
     end
   end
 
-  def show
+  def index
     redirect_to '/user_sessions/new' unless session[:user_id]
 
     @transacoes = Transacao.where(userId: session[:user_id])
