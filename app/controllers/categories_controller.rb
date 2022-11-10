@@ -1,11 +1,15 @@
 # CategoriesController
 class CategoriesController < ApplicationController
+  def index
+    @categories = Category.where(user_id: session[:user_id])
+  end
+
   def new
     @category = Category.new
   end
 
   def create
-    @category = Category.new(params.require(:category).permit(:name))
+    @category = Category.new(params.require(:category).permit(:name).reverse_merge({user_id: session[:user_id]}))
     if @category.save
       redirect_to '/categories'
     else
