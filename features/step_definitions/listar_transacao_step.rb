@@ -3,7 +3,7 @@ Dado('que eu esteja logado') do
 end
 
 Quando('eu estiver na página de listagem de transações') do
-  visit '/transacoes/list'
+  visit '/transacoes'
 end
 
 Então('deverei ver minhas transações') do
