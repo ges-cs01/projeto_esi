@@ -9,7 +9,7 @@
 
 ## Links
 * Heroku: https://projetoesi.herokuapp.com/
-* Pivotal Tracker: -
+* Pivotal Tracker: https://www.pivotaltracker.com/n/projects/2603045
 
 ## Integrantes
       Guilherme Elui de Souza, 11796152

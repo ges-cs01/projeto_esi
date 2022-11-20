@@ -1,6 +1,6 @@
 <h1>Listar transações</h1>
 
-<table>
+<table class="table">
   <thead>
     <tr>
       <th>Descrição</th>
@@ -19,10 +19,12 @@
           <%= transacao.valor %>
         </td>
         <td>
-          <button>Detalhes</button>
+          <%= button_to "Detalhes", transaco_path(id: transacao.id), method: :get, class: "btn btn-primary" %>
         </td>
       </tr>
     <% end %>
   </tbody>
-
 </table>
+
+<%= button_to "Nova transação", new_transaco_path, method: :get, class: "my-2 btn btn-success" %>
+<%= button_to "Voltar", root_path, method: :get, class: "btn btn-secondary" %>

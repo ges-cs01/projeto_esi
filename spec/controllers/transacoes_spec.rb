@@ -34,4 +34,20 @@ RSpec.describe TransacoesController, type: :controller do
       assert_response(:ok)
     end
   end
+
+  describe "show" do
+    it "redirect_to '/transacoes' if the is invalid transaction" do
+      get :show, params: {id: 2}
+
+      assert_redirected_to "/transacoes"
+      assert_response(:found)
+    end
+
+    it "should return 200 - OK if has transaction" do
+      allow(Transacao).to receive(:where).and_return("ok")
+      get :show, params: {id: 1}, session: {user_id: 1}
+
+      assert_response(:ok)
+    end
+  end
 end
