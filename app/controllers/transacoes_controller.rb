@@ -20,6 +20,12 @@ class TransacoesController < ApplicationController
     @transacoes = Transacao.where(userId: session[:user_id])
   end
 
+  def show
+    @transacao = Transacao.where(id: params[:id], userId: session[:user_id]).first
+
+    redirect_to '/transacoes' unless @transacao
+  end
+
   private
 
   def transacao_params

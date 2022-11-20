@@ -24,6 +24,8 @@
   </p>
 
   <p>
-    <%= form.submit 'Salvar' %>
+    <%= form.submit 'Salvar', class: "btn btn-success" %>
   </p>
 <% end %>
+
+<%= button_to "Voltar", transacoes_path, method: :get, class: "btn btn-secondary" %>

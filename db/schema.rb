@@ -28,9 +28,9 @@ ActiveRecord::Schema[7.0].define(version: 20_221_110_001_738) do
   create_table "transacaos", force: :cascade do |t|
     t.decimal "valor"
     t.string "descricao"
-    t.string "userId"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "userId"
   end
 
   create_table "usuarios", force: :cascade do |t|
