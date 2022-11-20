@@ -1,6 +1,6 @@
 #language: pt
 
-Funcionalidade: Cadastrar alunos
+Funcionalidade: Visualizar transações
 Como usuario
 Para que eu possa gerenciar minhas transações
 Eu quero acessar a tela de listagem de transações 
