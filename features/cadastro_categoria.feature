@@ -13,9 +13,3 @@ Quando preencho o campo "Nome" com "Contas"
 E clico em salvar
 Então ele deve salvar a categoria
 E deverei ser redirecionado para tela de categorias
-
-Cenário: Cadastro de categoria com erro
-Dado que estou na página de cadastro de categoria
-Quando não preencho o campo "Nome"
-E clico em salvar
-Então deverei ver a mensagem de erro "É obrigatório informar o nome."
