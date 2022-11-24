@@ -14,6 +14,7 @@ class UserSessionsController < ApplicationController
   end
 
   def destroy
-    # Ainda não :-)
+    user_session.destroy
+    redirect_to root_path
   end
 end

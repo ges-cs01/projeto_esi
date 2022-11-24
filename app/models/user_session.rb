@@ -34,4 +34,16 @@ class UserSession
   def persisted?
     false
   end
+
+  def current_user
+    Usuario.find(@session[:user_id])
+  end
+
+  def user_signed_in?
+    @session[:user_id].present?
+  end
+
+  def destroy
+    @session[:user_id] = nil
+  end
 end
