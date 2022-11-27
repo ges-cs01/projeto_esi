@@ -17,3 +17,4 @@
       João Leonardo Ribeiro Abrahão, 11381448
       Sérgio Guilherme Rodrigues da Rocha, 11270906
 ## Descrição do projeto
+Portal para controle financeiro pessoal.
